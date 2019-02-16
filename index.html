@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Staff System</title>
+  </head>
+  <body>
+    <h1>Staff System</h1>
+
+    <ul id="staff-list">
+    </ul>
+
+    <form id="add-user">
+      <fieldset>
+        <legend>User Details</legend>
+        <div>
+          <label>Name:
+            <input type="text" placeholder="Name" name="name" />
+          </label>
+        </div>
+
+        <div>
+          <label>Email:
+            <input type="email" placeholder="Email Address" name="email" />
+          </label>
+        </div>
+
+        <hr />
+
+        <div>
+          <input type="submit" value="Add User" />
+        </div>
+      </fieldset>
+    </form>
+
+    <script src="models/user.js"></script>
+    <script src="components/staff-list.js"></script>
+    <script src="main.js"></script>
+
+  </body>
+</html>
